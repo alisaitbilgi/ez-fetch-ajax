@@ -1,0 +1,23 @@
+{
+  "name": "ez-fetch-ajax",
+  "version": "1.0.2",
+  "description": "It serves an ajax and promised based fetch method which supports all request types",
+  "main": "build/Request.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xhr",
+    "xmlhttprequest",
+    "ajax",
+    "promise",
+    "proxy"
+  ],
+  "author": "ali sait bilgi",
+  "license": "ISC",
+  "_shasum": "7961d7b67a677fad112804b1ae502214e70e4293",
+  "_from": "ez-fetch-ajax@latest"
+}
