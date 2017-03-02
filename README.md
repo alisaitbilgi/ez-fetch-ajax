@@ -18,8 +18,8 @@ Two parameters are optional, you can type any number of and any types of paramet
     import {Request} from "ez-fetch/build/Request";
     
     Request.get("https://api.github.com/users/alisaitbilgi")
-      .then(resultArray => {
-        console.log(resultArray[0]); // will print response status. ( 200 - 404 ect.)
-        console.log(resultArray[1]); // will print response of the server. (a JSON object ect.)
-        });
+      .then(resultObject => {
+        console.log(resultObject.status); // will print response status. ( 200 - 404 ect.)
+        console.log(resultObject.response); // will print response of the server. (a JSON object ect.)
+      });
 
