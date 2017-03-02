@@ -13,8 +13,8 @@ var handler = {
                 xhr.send(data);
                 xhr.onload = function () {
                     res({
-                    status: xhr.status,
-                    response: xhr.response
+                        status: xhr.status,
+                        response: xhr.response
                     });
                 };
                 xhr.onerror = function (e) {
