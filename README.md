@@ -15,7 +15,7 @@ Two parameters are optional, you can type any number of and any types of paramet
     
     Example Usage:
     
-    import {Request} from "ez-fetch-ajax";
+    var Request = require("ez-fetch-ajax");
     
     Request.get("https://api.github.com/users/alisaitbilgi")
       .then(resultObject => {
