@@ -9,7 +9,10 @@ const handler = {
                     xhr.open(method, url, true);
                     xhr.send(data);
                     xhr.onload = function () {
-                        res([xhr.status, xhr.response]);
+                        res({
+                            status: xhr.status, 
+                            response: xhr.response
+                        });
                     };
                     xhr.onerror = function (e) {
                         rej(new Error(e));
